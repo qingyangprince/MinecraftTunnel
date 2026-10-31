@@ -1,0 +1,5 @@
+include README.md
+include requirements-optional.txt
+include main.py
+recursive-include tests *.py
+recursive-include packaging *

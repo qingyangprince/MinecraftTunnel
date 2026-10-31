@@ -1,0 +1,7 @@
+{
+  "last_host": "192.168.1.2",
+  "last_port": 57575,
+  "enable_compression": true,
+  "enable_upnp": true,
+  "max_players": 8
+}

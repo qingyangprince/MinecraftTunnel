@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minecraft-tunnel"
+version = "2.0.0"
+description = "Minecraft Java 版 TCP 联机转发工具"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+upnp = ["miniupnpc>=2.2.3"]
+
+[project.scripts]
+mc-tunnel = "minecraft_tunnel.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["minecraft_tunnel*"]
